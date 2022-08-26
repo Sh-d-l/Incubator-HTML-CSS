@@ -1,25 +1,28 @@
 <style>
-  #box-container {
-    background: gray;
-    display: flex;
-    height: 500px;
-    align-items: center;
+  .d1{background:LightSkyBlue;}
+  .d2{background:LightSalmon;}
+  .d3{background:PaleTurquoise;}
+  .d4{background:LightPink;}
+  .d5{background:PaleGreen;}
 
-  }
-  #box-1 {
-    background-color: dodgerblue;
-    width: 200px;
-    font-size: 24px;
-  }
-
-  #box-2 {
-    background-color: orangered;
-    width: 200px;
-    font-size: 18px;
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* Only change code below this line */
+    grid-gap: 10px 20px;
+    
+    /* Only change code above this line */
   }
 </style>
-
-<div id="box-container">
-  <div id="box-1"><p>Hello</p></div>
-  <div id="box-2"><p>Goodbye</p></div>
+<div class="container">
+  <div class="d1">1</div>
+  <div class="d2">2</div>
+  <div class="d3">3</div>
+  <div class="d4">4</div>
+  <div class="d5">5</div>
 </div>
