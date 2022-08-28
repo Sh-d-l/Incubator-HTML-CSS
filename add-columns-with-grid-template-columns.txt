@@ -1,17 +1,16 @@
 <style>
   .item1{background:LightSkyBlue;}
   .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
 
-  .item3 {
-    background: PaleTurquoise;
+  .item5 {
+    background: PaleGreen;
     /* Only change code below this line */
-    align-self: end;
+    grid-area: footer;
     
     /* Only change code above this line */
   }
-
-  .item4{background:LightPink;}
-  .item5{background:PaleGreen;}
 
   .container {
     font-size: 40px;
@@ -22,6 +21,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
+    grid-template-areas:
+      "header header header"
+      "advert content content"
+      "footer footer footer";
   }
 </style>
 
