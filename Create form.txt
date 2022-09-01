@@ -1,0 +1,45 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey-form</title>
+        <link rel="stylesheet"    href="styles.css">    
+    </head> 
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form<h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>  
+        <form id="survey-form">
+            <input placeholder="Enter your name" id="name" required="required" type="text">
+            <label id="name-label" for="name">Name</label>
+            <input placeholder="Enter your Email" id="email" required="required" type="email">
+            <label id="email-label" for="email">Email</label>
+            <input placeholder="Age" id="number" min="1" max="100" type="number">
+            <label id="number-label" for="number">number</label>
+            <select id="dropdown">
+               <option>Student</option>
+               <option>Full time job</option>
+            </select>
+            <label for="id">Which option best describes your current role?</label> 
+            <input type="radio" name="name" id="radio-name" value="name"> 
+            <label for="radio-name">Definitely</label>
+            <input type="radio" name="name" id="radio-name-two" value="name">
+            <label for="radio-name-two">Maybe</label>
+            <input type="checkbox" id="front-end" name="name" value="front-end">
+            <label for="front-end">Front-end</label>
+            <input type="checkbox" id="back-end" name="name" value="back-end">
+            <label for="back-end">Back-end</label>
+            <textarea>Enter your comments here</textarea>  
+            <button id="submit">Submit</button>   
+        </form>  
+    </body>  
+</html>   
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
