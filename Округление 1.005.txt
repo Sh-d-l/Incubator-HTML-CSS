@@ -1,0 +1,2 @@
+et numOne = Math.round((1.005 + Number.EPSILON) * 100) / 100;
+   console.log(numOne);
